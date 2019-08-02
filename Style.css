@@ -1,0 +1,104 @@
+head {
+  margin-top: : 100px;
+  /* make the letters start farther down */
+}
+
+body {
+  /* and background colors */
+  background-image: url(https://wallpaperlayer.com/img/2015/6/dark-gray-background-8443-8766-hd-wallpapers.jpg);
+  font-family: white
+}
+
+h1 {
+  color: white;
+  font-family: "Times New Roman", verdana, verdana
+}
+
+h2{
+  color: white;
+  font-family: "Times New Roman", verdana, verdana
+}
+
+h3 {
+  color: darkmagenta;
+  font-family: verdana, verdana, verdana
+}
+
+#subtitle {
+  font-size: 20px;
+  color: white;
+  font-family: "Times New Roman", verdana, verdana
+}
+
+
+.words {
+  color: white;
+  font-family: "Times New Roman", verdana, verdana;
+  font-size: 17px;
+  padding: 5px
+}
+ul {
+  list-style-type: none;
+/* no bullets or anything like that */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkslategrey;
+  position: sticky;
+  top: 0
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (darkslategrey) on hover */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 10px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: darkslategrey; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50%; /* Rounded  */
+  font-size: 20px; /* Increase font size */}
+
+#myBtn:hover {
+  background-color: white; /* Add a dark-grey background on hover */
+  color: darkslategrey; }
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  }
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+p {
+    margin: 35px;
+}
